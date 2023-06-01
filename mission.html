@@ -12,7 +12,7 @@
 		margin: 0vw;
 		font-family: "Courier New", "monospace";
 	}
-	#logo{
+	.logo{
 		height: 4vw;
 	}
 	#banner {
@@ -36,13 +36,24 @@
 		font-family: "Trebuchet", "Verdana", "sans-serif";
 		font-size: 16px;
 	}
+	#socials {
+		position: fixed;
+		bottom: 25px;
+		right: 10px;
+	}
 	</style>
 
 	<body>
+		<nav id="socials">
+			<a href="https://instagram.com/clovrelectronicsmanagement?igshid=NTc4MTIwNjQ2YQ==" target="_blank" rel="noopener noreferrer"><img class="logo" src="images/insta_icon.webp"></a>
+			<a href="https://www.facebook.com/profile.php?id=100091575455123&mibextid=LQQJ4d" target="_blank" rel="noopener noreferrer"><img class="logo" src="images/fb_icon.png"></a>
+			<a href="https://www.linkedin.com/company/92615436/admin/?feedType=following" target="_blank" rel="noopener noreferrer"><img class="logo" src="images/linkedin_icon.webp"></a>
+		</nav>
+
 		<header>
 			<div id="banner">
 				<nav>
-					<a href="index.html"><img id="logo" src="images/logo.png"></a>
+					<a href="index.html"><img class="logo" src="images/logo.png"></a>
 					<a href="index.html">Home</a>
 					<a href="mission.html">Mission</a>
 					<a href="services.html">Services</a>
@@ -61,9 +72,5 @@
 			<p>Our business model supports a circular economic solution to e-waste,
 			reselling consumers’ outdated electronics to companies that sustainably recycle and reuse components otherwise doomed to the landfill.</p>
 		</section>
-		
-		<footer>
-			<p>Instagram: clovrelectronicsmanagement</p>
-		</footer>
 	</body>
 </html>
