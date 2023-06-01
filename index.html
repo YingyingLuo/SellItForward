@@ -12,7 +12,7 @@
 		margin: 0vw;
 		font-family: "Courier New", "monospace";
 	}
-	#logo{
+	.logo{
 		height: 4vw;
 	}
 	#banner {
@@ -43,20 +43,29 @@
 	td {
 		padding: 0.7vw;
 	}
+	#socials {
+		position: fixed;
+		bottom: 25px;
+		right: 10px;
+	}
 	</style>
 
 	<body>
+		<nav id="socials">
+			<a href="https://instagram.com/clovrelectronicsmanagement?igshid=NTc4MTIwNjQ2YQ==" target="_blank" rel="noopener noreferrer"><img class="logo" src="images/insta_icon.webp"></a>
+			<a href="https://www.facebook.com/profile.php?id=100091575455123&mibextid=LQQJ4d" target="_blank" rel="noopener noreferrer"><img class="logo" src="images/fb_icon.png"></a>
+			<a href="https://www.linkedin.com/company/92615436/admin/?feedType=following" target="_blank" rel="noopener noreferrer"><img class="logo" src="images/linkedin_icon.webp"></a>
+		</nav>
+
 		<header>
-			<div id="banner">
-				<nav>
-					<a href="index.html"><img id="logo" src="images/logo.png"></a>
-					<a href="index.html">Home</a>
-					<a href="mission.html">Mission</a>
-					<a href="services.html">Services</a>
-					<a href="about-us.html">About Us</a>
-					<a href="https://calendly.com/sellitforward/appraisal" target="_blank" rel="noopener noreferrer">Book Appointment</a>
-				</nav>
-			</div>
+			<nav id="banner">
+				<a href="index.html"><img class="logo" src="images/logo.png"></a>
+				<a href="index.html">Home</a>
+				<a href="mission.html">Mission</a>
+				<a href="services.html">Services</a>
+				<a href="about-us.html">About Us</a>
+				<a href="https://calendly.com/sellitforward/appraisal" target="_blank" rel="noopener noreferrer">Book Appointment</a>
+			</nav>
 
 			<img id="title-box" src="images/title_box_2.png">
 		</header>
@@ -90,9 +99,5 @@
 				</tbody>
 			</table>			
 		</section>
-		
-		<footer>
-			<p>Instagram: clovrelectronicsmanagement</p>
-		</footer>
 	</body>
 </html>
